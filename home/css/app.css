@@ -1,0 +1,143 @@
+
+/* estilos del sidebar lateral izquierdo*/
+
+.backgroundside{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../img/bg.jpg');
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logoapp{
+    width: 50px;
+    height: 50px;
+}
+/* olvidaste tu contraseña*/
+.body-forgot{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../img/bg.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-forgot{
+    background: url('../img/forgot.PNG');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+}
+/*registro*/
+
+.container-registro{
+    max-width: 40rem;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.almacen-registro{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+
+.formulario-registro{
+    margin-top: 30px;
+}
+
+.formulario-registro input::placeholder{
+    text-align: center;
+}
+
+.container-uppass{
+    position: relative;
+    display: flex;
+}
+
+.btn-registrar, .btn-borrar{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: .3rem;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-registrar:hover, .btn-borrar:hover{
+    background-color: dodgerblue;
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+.btn-registrar:active, .btn-borrar:active{
+    background-color: hsl(95, 94%, 46%);
+    transition: 300ms;
+}
+
+/* Modal para usar scroll en dispositivos*/
+
+.modopen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* para mostrar la contraseña */
+
+#show-password {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    margin-top: 5px;
+    background-color: #3b414800;
+    cursor: pointer;
+    border: none;
+}
+
+#show-password2 {
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    background-color: #3b414800;
+    cursor: pointer;
+    border: none;
+}
+
+#show-password3 {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: #3b414800;
+    cursor: pointer;
+    border: none;
+}
+
+i{
+    color:dodgerblue;
+}
+
+
